@@ -1,0 +1,420 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    font-family: "Montserrat";
+    font-weight: 500;
+    text-align: center;
+}
+
+/* containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* sections */
+
+.coloured-section{
+    background-color: #ffffff;
+    color: rgb(6, 156, 31);
+
+}
+
+.white-section{
+    background-color: #D8E2DC;
+    color: black;
+
+}
+ /* cta */
+
+
+.cta-heading{
+    font-family:'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    
+}
+
+
+ /* footer */
+
+#footer{
+    background-color: #fff;
+  
+}
+.footer-icons{
+    padding: 0.5%;
+    margin-bottom: 1%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+  
+}
+
+
+
+
+
+p{
+    color: #8f8f8f;
+}
+
+/* headings */
+
+.big-headings{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding:0 0 3rem;
+}
+
+/*.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}*/
+
+.nav-item{
+    padding: 0 18px;
+    
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 300;
+    
+}
+
+
+
+
+
+/* Download Buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0 ;
+}
+
+/* title-section */
+
+
+#title .container-fluid{
+    padding: 0.1% 15% 11%;
+    text-align: left;
+}
+
+/* Title images */
+
+.title-image{
+    width: 100%;
+    position: absolute;
+
+    left: 10%;
+}
+
+/* icons */
+
+.icon{
+    
+    margin-bottom: 1rem;
+    color: orangered;
+}    
+
+
+.icon:hover{
+    color: #7e7e7e;
+}
+
+/* features */
+
+#features{
+    
+    position: relative;
+    
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+
+.feature-box{
+    padding: 4.5%;
+    
+
+}
+
+/*Carousel*/
+
+
+
+
+.carousel-control-prev-icon{
+    color: brown;
+}
+
+
+
+/* Testimonials */
+
+#testimonials{
+    background-color:#000000 ;
+    
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+
+
+
+/* Press */
+
+#press{
+    background-color:#ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing */
+
+#pricing{
+    padding:100px;
+    
+}
+
+.pricing-cloumn{
+    padding: 3% 2%;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+
+@media (max-width:1028px){
+
+.title-image{
+    position: static;
+    
+}
+
+#title{
+    text-align: center;
+}
+}
+
+
+
+
+/*form*/
+
+.contactform{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.Contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000000;
+}
+
+.Contact .content
+{
+    max-width:800px;
+    text-align: center;
+    
+
+}
+
+.Contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.Contact .content p{
+    font-weight: 300;
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+
+.container .contactInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container .contactInfo .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+
+.container .contactInfo .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+    text-align: left;
+}
+
+.contactForm{
+    width:40%;
+    padding: 40px;
+    background: rgb(255, 255, 255);
+}
+
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea 
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    resize: none;
+}
+
+.contactForm .inputBox span{
+     
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+ color: #e91e63;
+ font-size: 12px;
+ transform: translateY(-20px);
+}
+
+.contactForm .inputBox input[type="submit"]
+{
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+.navbar-dark .navbar-toggler{
+   background-color: rgb(46, 177, 46);
+   
+    
+}
+
+@media (max-width: 991px)
+{
+    .Contact{
+        padding:50px;
+
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .contactInfo{
+        margin-bottom: 40px;
+    }
+    .container .contactInfo, .contactForm
+    {
+        width: 100%;
+    }
+}
